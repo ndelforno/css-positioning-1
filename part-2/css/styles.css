@@ -22,8 +22,35 @@ img {
 figure {
   margin: 0;
 }
+.film-title {
+  margin-top: 0;
+}
 
 .film {
-  width: 50%;
+  width: 56%;
   margin: 40px auto;
+  display:grid;
+  grid-template-columns: 165px 1fr;
+  height: : 290px;
+
+}
+article {
+  border: 1px solid Grey;
+  position:relative;
+  padding:10px;
+}
+.action-watch-later{
+  position: relative;
+  bottom:250px;
+  left:130px;
+  color:red;
+}
+.action-like {
+  position: absolute;
+  right:5px;
+  bottom: 5px;
+  color: red;
+}
+.film-details{
+  padding:10px;
 }
